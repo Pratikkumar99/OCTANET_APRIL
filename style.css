@@ -371,14 +371,14 @@ label{
 
 .footer {
   font-size: 2vh;
-  height: 6vh;
+  height: 3vh;
   width: 100vw;
   background-color: cadetblue;
   color: white;
   font-weight: 400;
   display: flex;
-  text-align: center;
+  align-items: center;
   justify-content: center;
   position: fixed;
-  padding: 1vh;
+  bottom: 0vh;
 }
