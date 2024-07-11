@@ -11,117 +11,123 @@
 </head>
 
 <body>
-  <div class="page1">
-    <div class="navbar">
-      <div class="container1">
-        <a href="#">Home</a>
-        <a href="#">Service</a>
-        <a href="#">Order Now</a>
-        <a href="#">Contact Us</a>
+  <div class="container">
+    <section id="first-page">
+      <div class="navbar">
+        <div class="container1">
+          <a href="#">Home</a>
+          <a href="#">Service</a>
+          <a href="#">Order Now</a>
+          <a href="#second-page">Contact Us</a>
+        </div>
       </div>
-    </div>
-    <div class="heading">
-      <h4> Our Services </h4>
-    </div>
-    <div class="container2">
-      <div class="box1">
-        <h3>Welcome to my Dhaba!</h3>
-        <h4>We have all types foods -</h4>
-        <p>● South Indian</p>
-        <p>● Chinese</p>
-        <p>● Western</p>
-        <p>● Non-veg</p>
+      <div class="heading">
+        <h4> Our Services </h4>
       </div>
+      <div class="container2">
+        <div class="box1">
+          <h3>Welcome to my Dhaba!</h3>
+          <h4>We have all types foods -</h4>
+          <button>● South Indian</button>
+          <button>● Chinese</button>
+          <button>● Western</button>
+          <button>● Non-veg</button>
+        </div>
 
-    </div>
+      </div>
+    
+      <div class="container2">
+        <div class="box2" id="south">
+          <div class="image"></div>
+          <div class="name">
+            <p>South Indian </p>
+          </div>
+        </div>
 
-    <div class="container2">
-      <div class="box2">
-        <div class="image"></div>
-        <div class="name">
-          <p>South Indian </p>
+        <div class="box3">
+          <div class="image"></div>
+          <div class="name">
+            <p>Chinese Food</p>
+          </div>
         </div>
       </div>
 
-      <div class="box3">
-        <div class="image"></div>
-        <div class="name">
-          <p>Chinese Food</p>
+      <div class="container2">
+        <div class="box4">
+          <div class="image"></div>
+          <div class="name">
+            <p>Western Food</p>
+          </div>
+        </div>
+        <div class="box5">
+          <div class="image"></div>
+          <div class="name">
+            <p>Non-Veg</p>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="container2">
-      <div class="box4">
-        <div class="image"></div>
-        <div class="name">
-          <p>Western Food</p>
+      
+    </section>
+    <section id="second-page">
+      <div class="heading">
+        <h4>Contact Us</h4>
+      </div>
+      <div class="contactUs">
+        <div class="contact">
+          <h2>Reach Us</h2>
+          
+          <form action="#.php">
+            <div class="firstname">
+              <label for="fname">First Name</label>
+              <input type="text" placeholder="Your first Name.." id="fname">
+            </div>
+            
+            <div class="lastname">
+               <label for="lname">Last Name</label>
+              <input type="text" placeholder="Your last Name.." id="lname">
+            </div>
+            
+            <div class="state">
+              <label for="State">State</label>
+              <select name="State" id="State">
+                <option value="choose-state"></option>
+                <option value="Haryana">Haryana</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="UP">UP</option>
+                <option value="other">other</option>
+              </select>
+            </div>
+            
+            <div class="email">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="Your email..">
+            </div>
+            
+            <div class="Query">
+              <label for="queries">Ask Queries</label>
+              <textarea id="queries" placeholder="write something here..."></textarea>
+            </div>
+            
+            <div class="submit">
+             <button type="submit">Submit</button>
+            </div>
+          </form>
+          
+          </div>
         </div>
       </div>
-      <div class="box5">
-        <div class="image"></div>
-        <div class="name">
-          <p>Non-Veg </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="page2">
-    <div class="heading">
-      <h4>Contact Us</h4>
-    </div>
-    <div class="contactUs">
-      <div class="contact">
-        <h2>Reach Us</h2>
-        
-        <form action="#.php">
-          <div class="firstname">
-            <label for="fname">First Name</label>
-            <input type="text" placeholder="Your first Name.." id="fname">
-          </div>
-          
-          <div class="lastname">
-             <label for="lname">Last Name</label>
-            <input type="text" placeholder="Your last Name.." id="lname">
-          </div>
-          
-          <div class="state">
-            <label for="State">State</label>
-            <select name="State" id="State">
-              <option value="Haryana">Bihar</option>
-              <option value="Bihar">Bihar</option>
-              <option value="Rajasthan">Rajasthan</option>
-              <option value="Kerala">Kerala</option>
-              <option value="Gujarat">Gujarat</option>
-              <option value="Maharashtra">Maharashtra</option>
-              <option value="Odisha">Odisha</option>
-              <option value="Tamilnadu">Tamilnadu</option>
-              <option value="Bengaluru">Bengaluru</option>
-              <option value="Uttarakhand">Uttarakhand</option>
-              <option value="UP">UP</option>
-            </select>
-          </div>
-          
-          <div class="email">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" placeholder="Your email..">
-          </div>
-          
-          <div class="Query">
-            <label for="queries">Ask Queries</label>
-            <textarea id="queries" placeholder="write something here..."></textarea>
-          </div>
-          
-          <div class="submit">
-           <button type="submit">Submit</button>
-          </div>
-        </form>
-        
-    </div>
-  </div>
-  </div>
+    </section>
   <div class="footer">
-    <p>Created by Pratik Kumar</p>
+        <p>Created by Pratik Kumar</p>
+    </div>
   </div>
 </body>
 
